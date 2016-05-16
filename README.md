@@ -28,11 +28,11 @@ Two buttons allow the Computer Simulator to be executed either in nomal mode (no
 Exception Handling
 
 An exception class ComputerSimulatorException is created for handling unexpected and invalid states. The following situations result in a ComputerSimulatorException being thrown:
-Stack Overflow - an attempt is made to access the stack past the end of the available memory
-Stack Underflow - an attempt is made to pop from the stack beyond the bottom of the stack
-Program Counter Overflow - an attempt is made to move the program counter past the end of the available memory
-Run state exception - an attempt is made to insert/modify insrtuctions after execution has started
-Instruction insertion error - an attempt is made to insert an instruction past the end of the available memory
+ - Stack Overflow - an attempt is made to access the stack past the end of the available memory
+ - Stack Underflow - an attempt is made to pop from the stack beyond the bottom of the stack
+ - Program Counter Overflow - an attempt is made to move the program counter past the end of the available memory
+ - Run state exception - an attempt is made to insert/modify insrtuctions after execution has started
+ - Instruction insertion error - an attempt is made to insert an instruction past the end of the available memory
 
 Design decisions relating to Memory and instruction storage
 
